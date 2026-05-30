@@ -49,7 +49,7 @@ Wayward-CN/
 │       └── english.json
 │
 ├── translation/                 # 中文翻译（镜像 upstream 结构）
-│   ├── english-language/
+│   ├── chinese-language/
 │   │   └── chinese.json
 │   ├── starterquest/lang/
 │   │   └── chinese.json
