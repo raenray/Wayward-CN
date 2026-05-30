@@ -47,8 +47,8 @@
 				"- 增加睡觉的周期<Increases sleep cycles>. \n- 增加技艺提升的概率.\n- 提高恢复的效果."
 			],
 			"restCancel": [
-				"Cancel Rest",
-				"cancelled resting",
+				"取消休息",
+				"取消了休息",
 				""
 			],
 			"sleep": [
@@ -103,9 +103,10 @@
 				"- 提高成功概率.\n- 增加相关技艺的成长.\n- 提高加固的效果.\n- 降低消耗的体力.\n- {#--COLOR-BAD:增加由此损耗的声誉点数.}"
 			],
 			"gather": [
-				"Gather",
-				"gathered{TARGET? from {TARGET}}{TOOL? with {TOOL}}",
-				"Gather from an adjacent resource/tile/doodad, destroying it in the process.\n- Will default to \"chopping\" or \"mining\" depending on the resource/tile/doodad.\n- Gathering with hands can lead to damaging your hands and/or bleeding."
+				"采集",
+				"采集了{TARGET?，从{TARGET}}{TOOL?，使用{TOOL}}",
+				"从相邻资源/地块/设施中采集，过程中会将其摧毁。\n- 默认会根据情况自动选择\"砍伐\"或\"开采\"。",
+				"- 提高成功率。\n- 提高技艺增长。\n- 提高获得物品的数量和品质。\n- 减少体力消耗。"
 			],
 			"stokeFire": [
 				"添火",
@@ -212,13 +213,13 @@
 				""
 			],
 			"clearMessages": [
-				"Clear Messages",
-				"cleared messages",
+				"清除消息",
+				"清除了消息",
 				""
 			],
 			"openDoor": [
-				"Open Door",
-				"opened {TARGET??a door}",
+				"开门",
+				"打开了{TARGET??一扇门}",
 				""
 			],
 			"closeDoor": [
@@ -254,23 +255,23 @@
 				"跳过一个地格，该行动可以使你穿过某些生物、摆设或是地格. 此行动消耗的体力取决于你的强壮及重量."
 			],
 			"move": [
-				"Move",
-				"moved",
+				"移动",
+				"移动了",
 				""
 			],
 			"moveTo": [
-				"Move to Position",
-				"moved to a position",
+				"移动到位置",
+				"移动到了指定位置",
 				""
 			],
 			"updateDirection": [
-				"Update Direction",
-				"updated direction",
+				"更新方向",
+				"更新了方向",
 				""
 			],
 			"idle": [
-				"Idle",
-				"idled",
+				"空闲",
+				"空闲了",
 				""
 			],
 			"drinkInFront": [
@@ -380,8 +381,8 @@
 				""
 			],
 			"respawn": [
-				"Respawn",
-				"respawned",
+				"重生",
+				"重生了",
 				""
 			],
 			"protectItem": [
@@ -393,13 +394,13 @@
 				"解除物品的锁定状态，此后所有锁定提供的约束与便利均不再生效."
 			],
 			"updateItemOrder": [
-				"Update Item Order",
-				"updated item order{TARGET? of {TARGET}}",
+				"更新物品排序",
+				"更新了{TARGET?{TARGET}的}物品排序",
 				""
 			],
 			"promptResponse": [
-				"Respond to Prompt",
-				"responded{RESPONSE? \"{RESPONSE}\"} to a prompt",
+				"回应提示",
+				"回应了提示{RESPONSE?\"{RESPONSE}\"}",
 				""
 			],
 			"upgrade": [
@@ -426,13 +427,13 @@
 				"{1?导引至该岛的特定港口:启程{0?游:航}至另一岛屿}."
 			],
 			"kneel": [
-				"Kneel{0? at {0}}",
-				"kneeled{TARGET? at {TARGET}}",
-				"Use at an altar to make an offering to the strange forces of the island."
+				"跪拜{0?，在{0}前}",
+				"跪拜了{TARGET?，在{TARGET}前}",
+				"在祭坛前使用，向岛上的奇异力量献上供品。"
 			],
 			"renameIsland": [
-				"Rename Island",
-				"renamed {TARGET??an island} to {NEW_NAME}",
+				"重命名岛屿",
+				"将{TARGET??一座岛屿}重命名为{NEW_NAME}",
 				""
 			],
 			"chop": [
@@ -450,8 +451,8 @@
 				"拴住某个生物或是解开它的束缚（如果它已经被拴住的话）."
 			],
 			"toggleVehicle": [
-				"Ride or Dismount",
-				"toggled riding {TARGET??a vehicle}",
+				"骑乘或离开",
+				"切换了{TARGET??一个载具}的骑乘状态",
 				""
 			],
 			"toggleDoor": [
@@ -463,24 +464,24 @@
 				"切换容器的开合状态."
 			],
 			"updateOption": [
-				"Update Option",
-				"updated option {TARGET}",
+				"更新选项",
+				"更新了{TARGET}选项",
 				""
 			],
 			"updateGameOption": [
-				"Update Game Option",
-				"updated game option",
+				"更新游戏选项",
+				"更新了游戏选项",
 				""
 			],
 			"updateWalkTo": [
-				"Update Walk Path",
-				"updated walk path",
+				"更新行走路径",
+				"更新了行走路径",
 				""
 			],
 			"consecrate": [
-				"Consecrate",
-				"consecrated{ TARGET??}{DEITY? with {DEITY}}",
-				"Offer runes to the the strange forces of the island, and hope for them to become more."
+				"祝圣",
+				"祝圣了{ TARGET??}{DEITY?，献给{DEITY}}",
+				"向岛上的奇异力量献上符文，期待它们变得更加充盈。"
 			],
 			"absorb": [
 				"汲取",
@@ -505,13 +506,13 @@
 				"离开你的载具."
 			],
 			"createControllableNPC": [
-				"Create Controllable NPC",
-				"created{TARGET? {TARGET},} a controllable npc",
+				"创建可控NPC",
+				"创建了{TARGET?{TARGET}，}一个可控NPC",
 				""
 			],
 			"removeControllableNPC": [
-				"Remove Controllable NPC",
-				"removed{TARGET? {TARGET},} a controllable npc",
+				"移除可控NPC",
+				"移除了{TARGET?{TARGET}，}一个可控NPC",
 				""
 			],
 			"propOpenDoor": [
@@ -519,13 +520,13 @@
 				"撑住某扇闸门或门，以允许各种实体自由穿行."
 			],
 			"damageMap": [
-				"Damage Map",
-				"damaged {TOOL??a map}",
+				"损坏地图",
+				"损坏了{TOOL??一张地图}",
 				""
 			],
 			"noclip": [
-				"Toggle Noclip",
-				"{ENABLED?enabled:disabled} noclip",
+				"切换穿墙",
+				"{ENABLED?启用了:禁用了}穿墙",
 				""
 			],
 			"shipToIsland": [
@@ -541,13 +542,13 @@
 				"消耗物品以召出其中的生物."
 			],
 			"setCreatureAi": [
-				"Command Creature",
-				"commanded {TARGET??a creature} to {COMMAND}",
+				"命令生物",
+				"命令了{TARGET??一个生物}{COMMAND?执行{COMMAND}}",
 				""
 			],
 			"setTitle": [
-				"Set Title",
-				"{TARGET?set title to {TARGET}:removed title}",
+				"设置称号",
+				"{TARGET?将称号设置为{TARGET}:移除了称号}",
 				""
 			],
 			"uncage": [
@@ -555,111 +556,111 @@
 				"将生物从关着的笼子中放出来."
 			],
 			"nPCInteract": [
-				"Interact with NPC",
-				"interacted with {TARGET??an npc}",
+				"与NPC互动",
+				"与{TARGET??一个NPC}互动了",
 				""
 			],
 			"displayItem": [
-				"Display {1?on {0??{1}}:Item}",
-				"displayed {TOOL??an item}{TARGET? on {TARGET}}",
-				"Display the item on the doodad."
+				"{1?展示在{0??{1}}上:展示物品}",
+				"展示了{TOOL??一件物品}{TARGET?，在{TARGET}上}",
+				"将物品展示在设施上。"
 			],
 			"invoke": [
-				"Invoke",
-				"{SILENCE?received no response from invoking:invoked}{ DEITY??}",
-				"Plead mercy from the unknowable forces above or below."
+				"祈唤",
+				"{SILENCE?祈唤时未收到回应:祈唤了}{ DEITY??}",
+				"向天上或地下的不可知力量祈求怜悯。"
 			],
 			"swapWithArmorStand": [
-				"Swap Equipment{0? With {0}}",
-				"swapped equipment with {TARGET??an armor stand}",
-				"Swap all equipped armor and weapons to an armor stand."
+				"交换装备{0?，与{0}}",
+				"与{TARGET??一个盔甲架}交换了装备",
+				"将所有已装备的护甲和武器交换到盔甲架上。"
 			],
 			"equipFromArmorStand": [
-				"Equip Items{0? From {0}}",
-				"equipped items from {TARGET??an armor stand}",
-				"Take all armor and weapons from an armor stand, placing them in your inventory."
+				"装备物品{0?，来自{0}}",
+				"从{TARGET??一个盔甲架}装备了物品",
+				"从盔甲架取下所有护甲和武器，放入你的行李中。"
 			],
 			"rotate": [
-				"Rotate{ 0??}",
-				"rotated {TARGET??a doodad}",
-				"Rotate the doodad."
+				"旋转{ 0??}",
+				"旋转了{TARGET??一个设施}",
+				"旋转这个设施。"
 			],
 			"takeFromArmorStand": [
-				"Take Items{0? From {0}}",
-				"took items from {TARGET??an armor stand}",
-				"Take all armor and weapons from an armor stand, placing them in your inventory."
+				"取走物品{0?，来自{0}}",
+				"从{TARGET??一个盔甲架}取走了物品",
+				"从盔甲架取下所有护甲和武器，放入你的行李中。"
 			],
 			"dumpItems": [
-				"Dump Contents{0? From {0}}",
-				"dumped contents from {TARGET??a container}",
-				"Dump out the contents of this container."
+				"倒空内容物{0?，来自{0}}",
+				"从{TARGET??一个容器}倒出了内容物",
+				"倒出这个容器的内容物。"
 			],
 			"reshape": [
-				"Reshape",
-				"reshaped {TARGET??an item}{TOOL? with {TOOL}}",
-				"Reshape an item, modifying its attack or defense bonuses.",
-				"- Increases chance of success.\n- Increases skill gained.\n- Decreases stamina used."
+				"重铸",
+				"重铸了{TARGET??一件物品}{TOOL?，使用{TOOL}}",
+				"重铸一件物品，改变其攻击或防御加成。",
+				"- 提高成功率。\n- 提高技艺增长。\n- 减少体力消耗。"
 			],
 			"stack": [
-				"Stack",
-				"stacked {TARGET}",
+				"堆叠",
+				"堆叠了{TARGET}",
 				""
 			],
 			"unstack": [
-				"Unstack",
-				"unstacked {TARGET}",
+				"取消堆叠",
+				"取消堆叠了{TARGET}",
 				""
 			],
 			"setCreatureAiAll": [
-				"Command All Creatures",
-				"commanded all creatures to {COMMAND}",
+				"命令所有生物",
+				"命令了所有生物{COMMAND?执行{COMMAND}}",
 				""
 			],
 			"craftingIngredient": [
-				"Ingredient",
-				"used {TARGET??an item} as a crafting ingredient",
-				"This item can be used as a crafting ingredient."
+				"原料",
+				"使用了{TARGET??一件物品}作为制作原料",
+				"此物品可以作为制作原料使用。"
 			],
 			"viewItems": [
-				"View Items",
+				"查看物品",
 				"",
-				"Open a dialog to interact with the items here."
+				"打开一个对话框来与这里的物品互动。"
 			],
 			"ascendDescend": [
-				"Ascend or Descend",
-				"ascended or descended",
-				"Attempt to ascend or descend a cave entrance on the tile."
+				"上升或下降",
+				"上升或下降了",
+				"试图通过地块上的洞穴入口上升或下降。"
 			],
 			"discoverRecipe": [
-				"Discover Recipe",
+				"发现配方",
 				"",
 				""
 			],
 			"excavateCollapse": [
-				"Excavate or Collapse",
-				"excavated or collapsed",
-				"Attempt the excavate or collapse a cave entrance or exit."
+				"挖掘或塌陷",
+				"挖掘或塌陷了",
+				"试图挖掘或塌陷一个洞穴入口或出口。"
 			],
 			"addItemDiscovered": [
-				"Add Item Discovered",
+				"添加发现物品",
 				"",
 				"",
 				""
 			],
 			"resetItemDiscovered": [
-				"Reset Item Discovered",
+				"重置发现物品",
 				"",
 				"",
 				""
 			],
 			"squish": [
-				"Squish",
-				"squished {TOOL??an item}",
-				"Consumed on use. Squishes the item, causing it to lose its shape and become a puddle of liquid."
+				"碾压",
+				"碾压了{TOOL??一件物品}",
+				"使用时消耗。碾压该物品，使其失去形状，变成一滩液体。"
 			],
 			"removePlayer": [
-				"Remove Player",
-				"removed{TARGET? {TARGET},} a player from the server",
+				"移除玩家",
+				"移除了{TARGET?{TARGET}，}一位服务器中的玩家",
 				""
 			]
 		},
@@ -6504,8 +6505,8 @@
 				""
 			],
 			"hideGlue": [
-				"hide glue",
-				"Glue created by boiling hides to break down collagen to form a powerful adhesive."
+				"兽皮胶",
+				"通过熬煮兽皮分解胶原蛋白制成的强力胶粘剂。"
 			],
 			"animalSkull": [
 				"动物头骨",
@@ -6600,8 +6601,8 @@
 				"黄金铸成的戒指，似乎曾经是权与力的象征."
 			],
 			"goldShortSword": [
-				"gold short sword",
-				"An ornate, but soft sword, forged from solid gold. Not suitable for combat due to its softness."
+				"黄金短剑",
+				"一把华丽但柔软的剑，由纯金锻造而成。因其柔软性不适合实战。"
 			],
 			"grassSeeds": [
 				"草种",
@@ -6624,8 +6625,8 @@
 				"用半干的树叶铺设的用来休息或睡觉的简单床铺，隔热性差，而且还很粗糙."
 			],
 			"hide": [
-				"hide",
-				"A fresh thick hide, cut from an animal and de-furred."
+				"兽皮",
+				"从动物身上切割下来并去毛的新鲜厚皮。"
 			],
 			"leaves": [
 				"树叶",
@@ -6768,8 +6769,8 @@
 				"从树枝剥取的强韧纤维，通常被当做索线使用."
 			],
 			"leather": [
-				"leather",
-				"A durable, tannin-treated piece of leather. Used in crafting armor and other tools."
+				"皮革",
+				"一块经鞣酸处理的耐用皮革。用于制作护甲和其他工具。"
 			],
 			"tannin": [
 				"鞣酸",
@@ -6992,16 +6993,16 @@
 				"一种轻脆的黑色矿物，可以将接触它的东西染上颜色，但主要还是用作燃料."
 			],
 			"smeltedWroughtIron": [
-				"smelted wrought iron",
-				"A heavily oxidized and unpurified form of iron, used in the forging of brittle tools, weapons, and armor."
+				"铸铁锭",
+				"一种严重氧化且未经净化的铁，用于锻造脆弱但基本的工具、武器和护甲。"
 			],
 			"limestonePowder": [
 				"石灰岩粉",
 				"一种能钢化玻璃及纯化金属的白色矿物粉末."
 			],
 			"smeltedIron": [
-				"smelted iron",
-				"A solid nugget of iron, ready to be formed or melted and cast in many ways."
+				"精铁锭",
+				"一块实心的铁锭，可以多种方式锻造成形或熔化铸造。"
 			],
 			"backpack": [
 				"背包",
@@ -7017,7 +7018,7 @@
 			],
 			"rawChicken": [
 				"生鸡肉",
-				"一只小巧但肥硕的处理好的鸡，随时都可以下锅."
+				"生鸡肉可能携带沙门氏菌，除非你打算之后就着抗生素一起吃，否则最好还是把它煮熟。"
 			],
 			"cookedChicken": [
 				"烹制鸡肉",
@@ -7032,8 +7033,8 @@
 				"庞大的木制容器，可以放在地上来收纳许多东西. 在里面存放食物可以保存得更久一点."
 			],
 			"ironShortSword": [
-				"iron short sword",
-				"A strong, sharp blade designed for thrusting and slashing."
+				"精铁短剑",
+				"一把坚固锋利的剑刃，专为刺击和劈砍设计。"
 			],
 			"ironBreastplate": [
 				"精铁胸甲",
@@ -7096,8 +7097,8 @@
 				"在这张破破烂烂的纸上记载着各种附有图表的说明文字."
 			],
 			"slimeBall": [
-				"slime ball",
-				"A lump of gooey slime which jiggles upon your touch. Can be used to preserve food, or melted down and used as glue."
+				"黏液球",
+				"一团黏糊糊的黏液，触碰时会轻轻抖动。可用于保存食物或融化后用作胶水。"
 			],
 			"slimeGlue": [
 				"泥胶",
@@ -7240,8 +7241,8 @@
 				"穿在身上的大块铸铁板子."
 			],
 			"wroughtIronShortSword": [
-				"wrought iron short sword",
-				"A short, sharpened blade fitted into a solid hilt and forged from wrought iron. A good, strong weapon."
+				"铸铁短剑",
+				"一把锋利短刃嵌入坚固手柄、铸铁锻造而成。一把结实的好武器。"
 			],
 			"woodenWall": [
 				"木墙",
@@ -7272,8 +7273,8 @@
 				"腐烂的有机物，满是能让植物茁壮成长的养分，和土壤混合使用."
 			],
 			"fishGlue": [
-				"fish glue",
-				"A semi-permanent glue produced by boiling down fish bones to form this tacky, sticky liquid. Strong enough to hold a thing or two together for awhile, but would not work for strengthening or reinforcement."
+				"鱼胶",
+				"通过熬煮鱼骨制成的半永久性胶水，呈黏稠液体状。足够暂时粘合几件物品，但不适合用于加固。"
 			],
 			"woodenShavings": [
 				"木屑",
@@ -7672,8 +7673,8 @@
 				"一把硕大的装饰性钥匙，看着似乎是镀了一层金子."
 			],
 			"woodenShortSword": [
-				"wooden short sword",
-				"A sturdy blunt sword, crafted from wood with a sharp piercing point. Most useful for sparring practice."
+				"木短剑",
+				"一把坚固的钝剑，木质制成，带有锐利的刺尖。最适合对练使用。"
 			],
 			"clayKiln": [
 				"黏土窑炉",
@@ -7720,8 +7721,8 @@
 				"破损严重的古旧长袍，曾属于一位敌对的施法者."
 			],
 			"crackedOrb": [
-				"cracked orb",
-				"A handful of sharp shards of a once spherical object, the jagged pieces making a high-pitched broken glass sound as they move around in your pack."
+				"碎裂宝珠",
+				"一捧曾是球体的锋利碎片，锯齿状的碎片在背包中移动时发出尖锐的碎玻璃声。"
 			],
 			"animalClaw": [
 				"动物的爪",
@@ -7948,8 +7949,8 @@
 				"含有多种铜类氧化物的原矿，熔炼后可以模铸成锭."
 			],
 			"smeltedCopper": [
-				"smelted copper",
-				"A dense lump of smelted copper. Slag and other impurities have been removed, making it useful for forging into tools, weapons, and armor."
+				"铜锭",
+				"一块致密的熔炼铜。矿渣和杂质已被去除，可用于锻造工具、武器和护甲。"
 			],
 			"copperPickaxe": [
 				"铜镐",
@@ -8004,8 +8005,8 @@
 				"冷锻成型的经典腹甲，这种身甲可以保护你的躯干免受伤害."
 			],
 			"copperShortSword": [
-				"copper short sword",
-				"A sharp and work hardened copper blade, designed for close quarter combat."
+				"铜短剑",
+				"精心铸造后冷锻加工的铜剑，光亮异常。以铜质之软，制造者显然倾注了大量心血。"
 			],
 			"copperTongs": [
 				"铜钳",
@@ -8200,8 +8201,8 @@
 				"一张展开的写满了大量文字的卷轴，记载着关于某个特定技艺的深入知识."
 			],
 			"strippedHide": [
-				"stripped hide",
-				"Thin strips of cut hide, useful for making strings and rope."
+				"兽皮条",
+				"切割成细条的皮革，用于制作线和绳。"
 			],
 			"claySandCastFlask": [
 				"陶质砂铸模具",
@@ -8216,12 +8217,12 @@
 				"中空处摆有湿砂的整块岩石，一种为金属塑形的模具."
 			],
 			"boneGlue": [
-				"bone glue",
-				"A natural glue processed from boiling animal bones that can be used to reinforce and secure items."
+				"骨胶",
+				"通过熬煮动物骨骼制成的天然胶水，可用于加固和固定物品。"
 			],
 			"cutHide": [
-				"cut hide",
-				"Tiny pieces of stripped hide to be used in the production of glue."
+				"兽皮碎片",
+				"用于制作胶水的小块兽皮条。"
 			],
 			"boneMeal": [
 				"骨粉",
@@ -8564,8 +8565,8 @@
 				"一块含有大量杂质的锡原矿. 熔铸成锭后就能打制成软甲、各种工具或者武器."
 			],
 			"smeltedTin": [
-				"smelted tin",
-				"A refined cluster of tin, ready to be cast or shaped into soft, metal implements."
+				"锡锭",
+				"一块精炼的锡，可铸造或塑造成柔软的金器具。"
 			],
 			"tinPickaxe": [
 				"锡镐",
@@ -8620,8 +8621,8 @@
 				"一件锡制成的完全护住你的上身的盔甲."
 			],
 			"tinShortSword": [
-				"tin short sword",
-				"A tin sword that deforms easily; ready to be used in combat. \"Ready\" may be a stretch."
+				"锡短剑",
+				"一把容易变形的锡剑，准备投入战斗——\"准备\"这个词可能有点勉强。"
 			],
 			"tinTongs": [
 				"锡钳",
@@ -8672,8 +8673,8 @@
 				"一种锡锻的刀刃，刃口锋利手柄精美，只可惜很容易就会钝掉."
 			],
 			"smeltedBronze": [
-				"smelted bronze",
-				"A pristine chunk of bronze alloy to be melted down and cast into other forms."
+				"青铜锭",
+				"一块纯净的青铜合金，可熔化铸造为其他形态。"
 			],
 			"bronzePickaxe": [
 				"青铜镐",
@@ -8728,8 +8729,8 @@
 				"风格独特又时尚的青铜胸甲，饰有流苏，能为你的腰腹提供保护."
 			],
 			"bronzeShortSword": [
-				"bronze short sword",
-				"Masterly crafted, this bronze sword sparkles with an astonishing luster, seemingly almost capable of blinding your foes with its sheen alone."
+				"青铜短剑",
+				"精心打造的青铜剑，闪烁着惊人的光泽，似乎仅凭光芒就足以令敌人目眩。"
 			],
 			"bronzeTongs": [
 				"青铜钳子",
@@ -9536,324 +9537,412 @@
 				"由青铜制成，通过蒸馏过程来纯化海水."
 			],
 			"armorStand": [
-				"armor stand",
-				"An armor stand used as a display fixture, showcasing and organizing your armaments."
+				"盔甲架",
+				"用于展示和整理武器的展示架。"
 			],
 			"runeOfEvil": [
-				"rune",
-				"A runic symbol carved into an ancient shard of wood. Inspecting the artifact too closely sends shivers down your spine."
+				"符文",
+				"刻在古老木片上的符文符号。过于仔细地审视这件物品会让你脊背发凉。"
 			],
 			"runeOfChaos": [
-				"rune",
-				"A runic symbol drawn on an ancient wooden medallion. The symbol is worn and faded, the texture coarse and grating. You somehow feel nothing, and everything."
+				"符文",
+				"绘在古老木制徽章上的符文符号。符号已磨损褪色，质地粗糙刺手。你不知为何感到空无一物，却又仿佛万物。"
 			],
 			"runeOfGood": [
-				"rune",
-				"A runic symbol carved into an ancient wooden tile. As you thumb the symbol, you feel a calming breeze."
+				"符文",
+				"刻在古老木块上的符文符号。当你用拇指抚摸符号时，感到一阵平静的微风。"
 			],
 			"graniteAltar": [
-				"granite altar",
-				"A granite table, carefully and precisely crafted with crude tools to be a place of reverence for inscrutable deities."
+				"石祭坛",
+				"一张精心制作的石桌，以粗糙的工具精雕细琢，作为对深不可测的神祇的敬畏之所。"
 			],
 			"woodenWheelbarrow": [
-				"wooden wheelbarrow",
-				"A sturdy and reliable wheelbarrow made from solid wood, perfect for transporting light to medium loads with ease."
+				"木制独轮车",
+				"实木制成的坚固可靠独轮车，适合轻松运输轻型到中型货物。"
 			],
 			"tinWheelbarrow": [
-				"tin wheelbarrow",
-				"A lightweight wheelbarrow with a rust-resistant tin coating, suitable for carrying small loads swiftly and efficiently."
+				"锡独轮车",
+				"轻便的独轮车，带有防锈锡涂层，适合快速高效地运输轻型货物。"
 			],
 			"copperWheelbarrow": [
-				"copper wheelbarrow",
-				"This wheelbarrow, with its copper construction, offers a balance of durability and a touch of elegance while moving medium loads across the terrain."
+				"铜独轮车",
+				"铜制独轮车，兼具功能性与抗氧化性，适合快速轻便的运输。"
 			],
 			"wroughtIronWheelbarrow": [
-				"wrought iron wheelbarrow",
-				"Crafted from wrought iron, this wheelbarrow provides excellent strength and durability, making it ideal for handling heavy loads no matter what environment."
+				"铸铁独轮车",
+				"铸铁制成，提供出色的强度和耐用性，适合在任何环境下运输重物。"
 			],
 			"ironWheelbarrow": [
-				"iron wheelbarrow",
-				"A robust and heavy-duty wheelbarrow forged from iron, designed to carry substantial loads without compromise."
+				"精铁独轮车",
+				"精铁锻造的坚固重型独轮车，设计用于毫不妥协地运输大量货物。"
 			],
 			"bronzeWheelbarrow": [
-				"bronze wheelbarrow",
-				"A wheelbarrow cast in bronze, combining durability and a touch of opulence for efficiently transporting various goods."
+				"青铜独轮车",
+				"青铜铸造的独轮车，兼具耐用与奢华，用于高效运输各类货物。"
 			],
 			"graniteCrucible": [
-				"granite crucible",
-				"A robust vessel crafted from granite, capable of withstanding extreme heat. Perfect for melting down ores."
+				"石坩埚",
+				"以花岗岩制成的坚固容器，能承受极高温度。非常适合熔化矿石。"
 			],
 			"sandstoneCrucible": [
-				"sandstone crucible",
-				"A heat-resistant crucible made from sandstone, ideal for refining minerals and shaping molten materials."
+				"砂石坩埚",
+				"砂石制成的耐热坩埚，适合精炼矿物和塑造熔融材料。"
 			],
 			"basaltCrucible": [
-				"basalt crucible",
-				"Crafted from unyielding basalt, this crucible withstands high temperatures but at the cost of efficiency."
+				"火山岩坩埚",
+				"以坚硬的火山岩制成，能耐受高温，但效率较低。"
 			],
 			"rawClayCrucible": [
-				"raw clay crucible",
-				"A basic, unprocessed clay crucible, ready for firing in a kiln."
+				"生黏土坩埚",
+				"一个基本的未加工黏土坩埚，准备放入窑中烧制。"
 			],
 			"clayCrucible": [
-				"clay crucible",
-				"Molded and fired to perfection, this clay crucible is a container for melting and forging metals."
+				"陶制坩埚",
+				"经过精心塑形和烧制，这个陶制坩埚是熔化锻造金属的容器。"
 			],
 			"sandstoneAltar": [
-				"sandstone altar",
-				"A sandstone altar with a rough and porous surface; a place to offer runes to gain favor with the deities."
+				"砂石祭坛",
+				"表面粗糙多孔的砂石祭坛，用以献上符文换取神祇的眷顾。"
 			],
 			"basaltAltar": [
-				"basalt altar",
-				"Hewn from ancient rock, this altar stands as a testament to devotion, its rough surface and contours used to call upon the deities."
+				"火山岩祭坛",
+				"以古老岩石凿成，这座祭坛是对虔诚的见证，粗糙的表面用于祈唤神祇。"
 			],
 			"clayAltar": [
-				"clay altar",
-				"A clay altar crafted from clay bricks, cut to shape and used to seek the favor of deities through the use of found runes."
+				"陶制祭坛",
+				"由黏土砖砌成的祭坛，用以献上符文，寻求神祇的眷顾。"
 			],
 			"pineResin": [
-				"pine resin",
-				"A lovely smelling syrupy material excreted from a pine tree."
+				"松脂",
+				"松树分泌出的芳香糖浆状物质。"
 			],
 			"spruceResin": [
-				"spruce resin",
-				"A sticky substance that has leaked from the bark of a spruce tree to be used in the making of primitive adhesives."
+				"云杉树脂",
+				"从云杉树皮中渗出的黏性物质，用于制作原始胶粘剂。"
 			],
 			"cypressResin": [
-				"cypress resin",
-				"The tacky resin excreted from a mature cypress tree, a substance that is found in all coniferous trees."
+				"柏树树脂",
+				"成熟柏树分泌的黏稠树脂，所有针叶树中都存在这种物质。"
 			],
 			"pitch": [
-				"pitch",
-				"As dark as charcoal, this hardened, cooled form of resinous pitch can be heated into glue."
+				"沥青",
+				"如木炭般漆黑，这种硬化冷却后的树脂状沥青加热后可以制成胶水。"
 			],
 			"pitchGlue": [
-				"pitch glue",
-				"A dark, viscid substance used as a primitive glue rapidly hardening as it cools."
+				"沥青胶",
+				"一种深色黏稠物质，用作原始胶水，冷却时会迅速硬化。"
 			],
 			"magicalOrb": [
-				"magical orb",
-				"A now-repaired glowing orb which seems to slide around in your hands uncontrollably not unlike water, but solid like glass."
+				"魔法宝珠",
+				"一颗已修复的发光的宝珠，在你手中如液体般滑动失控，却如玻璃般坚硬。"
 			],
 			"rawAberrantCod": [
-				"raw aberrant cod",
-				"A large twisted cod with one too many eyes and a strange coloration. It might be best to cook this newly found \"delicacy\" before consuming."
+				"生变异鳕鱼",
+				"肉质致密，有些黏滑，闻起来有硫磺味。管它呢，打包带走。"
 			],
 			"cookedAberrantCod": [
-				"cooked aberrant cod",
-				"A well-seared and well-cooked aberrant cod. Deliciously moist and seemingly tasty if you can get over its extra eyes looking at you."
+				"熟变异鳕鱼",
+				"精心煎制的变异鳕鱼。如果你能忽略它那多出来的眼睛盯着你看，它鲜嫩多汁，似乎很美味。"
 			],
 			"rawAberrantBlindfish": [
-				"raw aberrant blindfish",
-				"An abnormally large and translucent blindfish caught from the dark depths of a cave."
+				"生变异盲鱼",
+				"它的眼睛还在动……那算眼睛吗？不确定。它看起来不对劲，但既然打了包，它就能吃。"
 			],
 			"cookedAberrantBlindfish": [
-				"cooked aberrant blindfish",
-				"Not known for being consumed, especially in this odd form may prove to be a risky eat."
+				"熟变异盲鱼",
+				"不常作为食物，何况以这种怪异形态，食用它可能颇为冒险。"
 			],
 			"rawAberrantRedSnapper": [
-				"raw aberrant red snapper",
-				"A massive red snapper with large, sharp scales that would cut you if not carefully handled."
+				"生变异红鲷鱼",
+				"它散发着臭鸡蛋味，鳞片几乎在对你眨眼……我说服不了自己，但鱼就是鱼。管他的——走你。"
 			],
 			"cookedAberrantRedSnapper": [
-				"cooked aberrant red snapper",
-				"A massive meal; this well-cooked aberrant red snapper is made for more than one sitting."
+				"熟变异红鲷鱼",
+				"一顿大餐；这条熟变异红鲷鱼足够多次食用。"
 			],
 			"rawAberrantWalleye": [
-				"raw aberrant walleye",
-				"A rare and perplexing catch, this lifeless walleye is abnormally sized and quite slimy to the touch."
+				"生变异大眼鱼",
+				"这条鱼有一层厚厚的黏滑涂层，还有第二组触角般的感觉器官。它看起来很饿……不知怎么的。"
 			],
 			"cookedAberrantWalleye": [
-				"cooked aberrant walleye",
-				"An aberrant walleye that has been cooked a bit over the normal temperatures in an attempt to burn off any lingering sliminess."
+				"熟变异大眼鱼",
+				"一条经过高温烹调的变异大眼鱼，试图烧去残留的黏腻感。"
 			],
 			"fishBones": [
-				"fish bones",
-				"The skeletal innards of a fish from its razor-sharp spine to its delicate fins."
+				"鱼骨",
+				"鱼类的骨骼内构，从锋利的脊椎到精细的鱼鳍。"
 			],
 			"animalCartilage": [
-				"animal cartilage",
-				"The semi-transparent, rubbery tissue found between bones and other vital areas that need a bit of cushion within vertebrates."
+				"动物软骨",
+				"半透明的橡胶状组织，存在于脊椎动物骨骼之间及其他需要缓冲的部位。"
 			],
 			"gelatinPowder": [
-				"gelatin powder",
-				"A dried powder created by boiling down ground cartilage and bone, sifting the by-products and leaving to dry."
+				"明胶粉",
+				"通过熬煮研磨的软骨和骨头、筛滤副产品并晾干制成的干燥粉末。"
 			],
 			"gelatin": [
-				"gelatin",
-				"A tasteless, odorless transparent cuboid made from boiling gelatin powder and leaving to set up. It might provide some sustenance, but it won't be very enjoyable."
+				"明胶",
+				"将明胶粉煮沸后静置凝固而成的无色无味透明立方体。或许能提供一些营养，但不会很好吃。"
 			],
 			"aspic": [
-				"aspic",
-				"A bit of cooked meat encased in set gelatin; useful for preservation purposes."
+				"肉冻",
+				"将熟肉封存在凝固明胶中，有助于保存。"
 			],
 			"fruitCocktail": [
-				"fruit cocktail",
-				"A tasty treat; this dessert contains fruit suspended in fruit-flavored gelatin."
+				"水果鸡尾冻",
+				"一道美味的甜点，水果悬浮在水果味明胶中。"
 			],
 			"vegetableTerrine": [
-				"vegetable terrine",
-				"A decadent melange of vegetables contained within vegetable-flavored gelatin."
+				"蔬菜冻",
+				"蔬菜与蔬菜味明胶混合的精致拼盘。"
 			],
 			"tatteredClothBandana": [
-				"tattered cloth bandana",
-				"A simple piece of thin fabric shaped and knotted into a head garment. This one is looking the worse for wear."
+				"破布头巾",
+				"用薄布制成的简单头饰，这一件看起来有些破旧。"
 			],
 			"clothBandana": [
-				"cloth bandana",
-				"A thin woven piece of fabric knotted at the back and shaped to wear on top of your head. Just a little something to keep the sun off your head."
+				"布头巾",
+				"一块薄薄的编织布，在脑后打结，戴在头上。用来遮阳的小物件。"
 			],
 			"rustedScimitar": [
-				"rusted scimitar",
-				"A scimitar-style blade that appears to have been left out to the elements for what seems like decades."
+				"生锈弯刀",
+				"一把弯刀式刀刃，看起来已经在户外暴露了数十年。"
 			],
 			"tricorneHat": [
-				"tricorne hat",
-				"A cocked-style hat typically worn by the military or well-off folks, but this one was likely commandeered by a pirate at some point."
+				"三角帽",
+				"一种典型的翻边帽，通常由军人或富人所戴，但这顶很可能在哪次被海盗劫持了。"
 			],
 			"sandstoneArrowhead": [
-				"sandstone arrowhead",
-				"A sharpened piece of sandstone with a notched neck where string can be fastened to a shaft to create an arrow."
+				"砂石箭镞",
+				"磨尖的砂石片，带有凹槽用于将箭杆绑扎成箭。"
 			],
 			"sandstoneArrow": [
-				"sandstone arrow",
-				"A fully fletched arrow crafted with a sandstone arrowhead, likely originating from an arid region."
+				"砂石箭",
+				"装备砂石箭镞的箭矢，可能源自干旱地区。"
 			],
 			"reedFlute": [
-				"reed flute",
-				"An instrument made from a hollowed-out cattail reed with notches cut in for the notes. When blown into, it produces a sharp, somewhat shrill sound."
+				"芦苇笛",
+				"用空心香蒲杆制成的乐器，切出凹槽作为音孔。吹奏时发出尖锐而略刺耳的声音。"
 			],
 			"woodenFlute": [
-				"wooden flute",
-				"A simple wooden flute, carved from a wooden pole. When played, it produces a soft, melodic sound."
+				"木笛",
+				"用木杆雕成的简单木笛。吹奏时发出柔和悦耳的声音。"
 			],
 			"rawClayFlute": [
-				"raw clay flute",
-				"An unfired clay flute, shaped and ready to be fired inside a kiln."
+				"生黏土笛",
+				"一支未烧制的黏土笛，已塑形完毕，准备放入窑中烧制。"
 			],
 			"clayFlute": [
-				"clay flute",
-				"A flute made from fired clay. When used, it produces a hollow and somewhat deep melodic sound."
+				"陶笛",
+				"烧制黏土制成的笛子。吹奏时发出空洞而略深沉的声音。"
 			],
 			"boneFlute": [
-				"bone flute",
-				"An instrument crafted from a hollowed and carved bone with sharpened piece used for the reed. It produces odd, but alluring notes when played."
+				"骨笛",
+				"用镂空的骨头制成的乐器，簧片为一枚磨尖的骨片。吹奏时发出奇异却迷人的音调。"
 			],
 			"tinFlute": [
-				"tin flute",
-				"A flute made from tin, a metal that is soft and malleable. It produces a high-pitched note, definitely causing creatures around you to stir."
+				"锡笛",
+				"锡制笛子，材质柔软可塑。吹奏时发出高音，必然惊扰周围生物。"
 			],
 			"copperFlute": [
-				"copper flute",
-				"A cold-worked copper flute. When played, it produces a clear, resonant sound."
+				"铜笛",
+				"冷锻铜制成的笛子。吹奏时发出清脆洪亮的声音。"
 			],
 			"wroughtIronFlute": [
-				"wrought iron flute",
-				"A simple, but sonorous instrument, forged from wrought iron."
+				"铸铁笛",
+				"用铸铁锻造的简单却响亮的乐器。"
 			],
 			"ironFlute": [
-				"iron flute",
-				"A flute made from iron. When blown into, it produces solid, clear notes with clarity, for someone with some skill at least."
+				"精铁笛",
+				"精铁制成的笛子。吹奏时发出坚实清晰的音符——至少对有几分技艺的人来说是这样。"
 			],
 			"bronzeFlute": [
-				"bronze flute",
-				"An elegant flute crafted from bronze. When played, it produces a rich, deep sound causing any creatures around to stir with delight, or perhaps anger."
+				"青铜笛",
+				"优雅的青铜笛。吹奏时发出浑厚深沉的声音，引得周围生物骚动——可能是愉悦，也可能是愤怒。"
 			],
 			"strippedLeather": [
 				"条状皮革",
 				"皮革切割成的细条，可用于制作绳索或进一步制成粗绳."
 			],
 			"chickenEggshells": [
-				"chicken eggshells",
-				"Small, brittle chicken eggshells. They can be crushed and used for calcium-rich compost."
+				"鸡蛋壳",
+				"小而脆的鸡蛋壳，可碾碎用于富钙堆肥。"
 			],
 			"penguinEggshells": [
-				"penguin eggshells",
-				"The large remnants of a penguin eggshell. It can be used to improve soil quality in the form of compost and fertilizer."
+				"企鹅蛋壳",
+				"企鹅蛋壳的大块残片。可用作堆肥和肥料来改善土壤质量。"
 			],
 			"magicalMote": [
-				"magical mote",
-				"A speck; a piece of dust; a very small thing - but uniquely, and magically so."
+				"魔法微粒",
+				"一粒微尘、一点碎屑、一个极小的东西——但独特地、魔法般地如此。"
 			],
 			"unrefinedSugar": [
-				"unrefined sugar",
-				"A coarse, yet tacky substance that is the raw form of sugar, produced from sugar cane. It can be used in baking, but can also be processed further."
+				"粗糖",
+				"一种粗糙而发黏的糖的原始形态，从甘蔗中提取。可用于烘焙，也可进一步精炼。"
 			],
 			"refinedSugar": [
-				"refined sugar",
-				"A fine, white crystalline substance that is the processed form of raw sugar, commonly used as a sweetener in various baked goods."
+				"精制糖",
+				"一种细腻的白色结晶物质，是粗糖的加工形态，常用作各种烘焙食品的甜味剂。"
 			],
 			"candiedFruit": [
-				"candied fruit",
-				"A sweet treat made by baking fruit in sugar, resulting in a crunchy and flavorful snack, with a juicy center."
+				"蜜饯水果",
+				"将水果裹糖烘烤而成的甜美小吃，外层酥脆，中心多汁。"
 			],
 			"candiedSugar": [
-				"candied sugar",
-				"Sugar that has been melted down and cooled into small, hard, yet brittle candies. Can be eaten as a sweet treat."
+				"冰糖",
+				"将糖融化后冷却成的小块硬糖。可作为甜食直接食用。"
 			],
 			"rawClayBakingTray": [
-				"raw clay baking tray",
-				"A flat baking tray made from molded raw clay. When fired in a kiln, it becomes a great surface for baking on."
+				"生黏土烤盘",
+				"用模塑生黏土制成的扁平烤盘。在窑中烧制后将成为极好的烘焙表面。"
 			],
 			"clayBakingTray": [
-				"clay baking tray",
-				"A fired clay baking tray, perfect for cooking food over a fire or in a furnace."
+				"陶制烤盘",
+				"烧制的陶制烤盘，非常适合在火或熔炉上烹饪食物。"
 			],
 			"glassBakingTray": [
-				"glass baking tray",
-				"A tempered glass baking tray, ideal for baking food inside a furnace."
+				"玻璃烤盘",
+				"一块钢化玻璃烤盘，非常适合在熔炉内烘焙食物。"
 			],
 			"rawClayPan": [
-				"raw clay pan",
-				"A hollowed vessel of molded clay, shaped into a pan and ready to be hardened through fire."
+				"生黏土锅",
+				"一个模塑黏土制成的中空容器，已塑成平底锅形状，准备通过火烧硬化。"
 			],
 			"clayPan": [
-				"clay pan",
-				"A hardened clay pan, ready to be used for baked pies and other goodies."
+				"陶锅",
+				"坚硬的陶制平底锅，可用于烘焙派和其他美食。"
 			],
 			"glassPan": [
-				"glass pan",
-				"A rather fragile pan, especially in a survival scenario. Still, glass is a great material for certain types of baking."
+				"玻璃锅",
+				"一口相当脆弱的锅，尤其在生存环境中。但玻璃对某些烘焙类型来说是很好的材料。"
 			],
 			"tinPan": [
-				"tin pan",
-				"A lightweight tin pan, useful for baking certain foods. Care should be taken to avoid melting it."
+				"锡锅",
+				"轻便的锡锅，适合烘焙某些食物。需注意避免它融化。"
 			],
 			"copperPan": [
-				"copper pan",
-				"A pan crafted from copper and cold-hammered into a cylindrical shape. The copper material makes for a great baking surface due to its heat conductivity."
+				"铜锅",
+				"由铜冷锻成圆柱形的平底锅。铜的导热性使其成为出色的烘焙表面。"
 			],
 			"wroughtIronPan": [
-				"wrought iron pan",
-				"A sturdy wrought iron pan. Excellent for baking and cooking due to its durability and heat retention."
+				"铸铁锅",
+				"坚固的铸铁锅。因其耐用性和保温性，非常适合烘焙和烹饪。"
 			],
 			"ironPan": [
-				"iron pan",
-				"A pan forged out of solid iron. Can be used over fire for baking pies and cakes."
+				"精铁锅",
+				"一口实心精铁锻造的锅。可在火上用于烘焙派和蛋糕。"
 			],
 			"bronzePan": [
-				"bronze pan",
-				"A bronze pan, crafted with a durable alloy that is great for baking due to its heat retention and even cooking properties."
+				"青铜锅",
+				"青铜制成的平底锅，耐用的合金使其保温均匀，非常适合烘焙。"
 			],
 			"pumpkinPie": [
-				"pumpkin pie",
-				"A delicious pie baked with sugar, milk, eggs, and the star of the show: pumpkin, all in a flakey flour dough crust."
+				"南瓜派",
+				"一款美味的派，以糖、牛奶、鸡蛋和主角南瓜烘焙而成，外裹酥脆的面粉油酥皮。"
 			],
 			"fruitPie": [
-				"fruit pie",
-				"A delicious pie filled with a mixture of fruit, baked to perfection with a golden crust."
+				"水果派",
+				"一款填满混合水果的美味派，烘焙至完美，外皮金黄。"
 			],
 			"jackOLantern": [
-				"jack-o'-lantern",
-				"A hollowed, spooky-faced pumpkin. Can be used as a light source when placed on the ground and lit. Some believe these carved pumpkins to be capable of warding off evil spirits."
+				"南瓜灯",
+				"一个镂空刻有鬼脸的南瓜。放在地上点燃后可用作光源。有些人相信这些雕刻的南瓜能驱邪避鬼。"
 			],
 			"driedLeaves": [
-				"dried leaves",
-				"A fistful of dried leaves, brittle to the touch, but useful for tinder or compost."
+				"干树叶",
+				"一把干枯的叶子，触之即碎，但可用作火绒或堆肥。"
 			],
 			"last": [
 				"",
 				""
+			],
+			"driedAberrantBlindfish": [
+				"风干变异盲鱼",
+				"一条干瘪脱水的鱼，经过足够风干以供食用。可能有些独特的风味。"
+			],
+			"driedAberrantCod": [
+				"风干变异鳕鱼",
+				"一条在阳光下慢晒的鱼，撒盐储存以便旅途食用。"
+			],
+			"driedAberrantRedSnapper": [
+				"风干变异红鲷鱼",
+				"一条风干良好的红鲷鱼，散发浓烈气味，但作为旅途食物效果出色。"
+			],
+			"driedAberrantWalleye": [
+				"风干变异大眼鱼",
+				"一条撒了大量盐的风干大眼鱼，虽然腌渍后仍有些黏滑，但依然可食。"
+			],
+			"fineTannedLeather": [
+				"精制鞣皮",
+				"精心鞣制的光滑皮革，具有高品质的表面和强度。"
+			],
+			"largeStrippedHide": [
+				"大兽皮条",
+				"厚实的生皮条，用于制作坚固的绳索和绑带。"
+			],
+			"leatherWhip": [
+				"皮鞭",
+				"用鞣制皮革制成的鞭子，能对敌人造成痛苦但不致命的打击。"
+			],
+			"limewater": [
+				"石灰水",
+				"用于清理和加工兽皮及动物皮革的混合物。"
+			],
+			"limestoneAltar": [
+				"石灰岩祭坛",
+				"以石灰岩打造，用以向神祇献上符文。"
+			],
+			"limestoneCrucible": [
+				"石灰岩坩埚",
+				"石灰岩制成的坩埚，能承受一定高温，但效率较低。"
+			],
+			"limestoneFlute": [
+				"石灰岩笛",
+				"石灰岩雕成的笛子。吹奏时声音深沉而洪亮，仿佛来自地底深处的共鸣。"
+			],
+			"limestonePan": [
+				"石灰岩锅",
+				"凿成平底锅状的石灰岩，可用于烘焙或煎制食物。"
+			],
+			"limestoneShortSword": [
+				"石灰岩短剑",
+				"粗糙的石灰岩剑刃，虽不精致但足以自卫。"
+			],
+			"limestoneWheelbarrow": [
+				"石灰岩独轮车",
+				"凿出基本轮子形状的石灰岩块，适合短途运输较轻的货物。"
+			],
+			"magicalAlligatorGarFish": [
+				"魔法鳄雀鳝",
+				"鳄雀鳝的一种魔法品种。其鳞片在特定角度闪耀，只有勇士或疯子才敢尝试捕捉。"
+			],
+			"magicalAlligatorGarScale": [
+				"魔法鳄雀鳝鳞",
+				"光彩夺目的鳞片，即使在暗处也有隐约的微光，非常适合制作护甲。"
+			],
+			"magicalCatfish": [
+				"魔法鲶鱼",
+				"一条比普通同类明显更大的魔法鲶鱼。这种稀有发现会为任何渔获增添神秘色彩。"
+			],
+			"magicalTrout": [
+				"魔法鳟鱼",
+				"一条发出微弱光芒的鳟鱼，在其自然栖息地极为罕见。"
+			],
+			"meatJerky": [
+				"肉干",
+				"一条干硬的肉条，非常适合用作长途旅行中耐储存的零食。"
+			],
+			"mysteriousChest": [
+				"神秘宝箱",
+				"一件包裹着神秘符文和奇异金属带子的坚固箱子，散发着无法辨识的恶臭。打开它可能会永远改变你。"
+			],
+			"pigmentPowder": [
+				"颜料粉末",
+				"一种精细研磨的粉末，用于制作各种织物和皮革的染料。"
+			],
+			"rawFishSmall": [
+				"生小鱼",
+				"一条有鳞的小鱼，最好是烤了吃。如果对自己有信心也可以直接生吃。"
 			]
 		},
 		"itemAffixPostReformat": {
