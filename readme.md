@@ -48,18 +48,19 @@ Wayward-CN/
 │   └── oddmagicks/lang/
 │       └── english.json
 │
-├── translation/                 # 中文翻译（每个文件对应一个上游模块）
-│   ├── chinese.json             # 游戏本体
-│   ├── starterquest.json
-│   ├── tars.json
-│   ├── debugtools.json
-│   ├── balancingtools.json
-│   └── oddmagicks.json
+├── lang/                        # 中文翻译（每个文件对应一个上游模块）
+│   └── zh_cn/
+│       ├── chinese.json         # 游戏本体
+│       ├── starterquest.json
+│       ├── tars.json
+│       ├── debugtools.json
+│       ├── balancingtools.json
+│       └── oddmagicks.json
 │
 └── glossary.md                  # 术语表（所有翻译的唯一参考标准）
 ```
 
-规则：**`upstream/` 禁止修改，翻译一律放入 `translation/`**，每个模块一个独立的 JSON 文件。
+规则：**`upstream/` 禁止修改，翻译一律放入 `lang/zh_cn/`**，每个模块一个独立的 JSON 文件。
 
 ---
 
@@ -119,7 +120,7 @@ Wayward-CN/
 
 1. **查术语表**。翻译前先看 `glossary.md`，确认术语译法。
 2. **打开英文原文**。在 `upstream/` 中找到对应文件。
-3. **打开中文文件**。在 `translation/` 中找到同名文件（文件名改为 `chinese.json`）。
+3. **打开中文文件**。在 `lang/zh_cn/` 中找到对应的 JSON 文件。
 4. **翻译**。找到 value 仍为英文的条目，按规则翻译。
 5. **验证 JSON**。翻译后的文件必须是合法 JSON。可用 `python3 -m json.tool chinese.json > /dev/null` 检查。
 6. **提交**。按模块提交，commit message 如 `translate: curse events`。
@@ -142,7 +143,7 @@ Wayward-CN/
 python3 -c "
 import json
 en = json.load(open('upstream/english-language/english.json'))
-cn = json.load(open('translation/english-language/chinese.json'))
+cn = json.load(open('lang/zh_cn/chinese.json'))
 for sec in cn['dictionaries']:
     if sec in en['dictionaries']:
         for k in cn['dictionaries'][sec]:

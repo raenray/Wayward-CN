@@ -1,0 +1,15 @@
+{
+    "name": "Wayward 中文补丁",
+    "description": "Wayward 全文本汉化",
+    "version": "2.15.4.1",
+    "author": "raenray",
+    "github": "https://github.com/raenray/Wayward-CN.git",
+    "waywardVersion": "2.15.4-beta",
+    "languages": [
+        "lang/zh_cn"
+    ],
+    "tags": [
+        "Language"
+    ],
+    "publishedFileId": "3702027844"
+}
