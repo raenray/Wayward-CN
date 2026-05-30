@@ -9,7 +9,9 @@
         "lang/zh_cn"
     ],
     "tags": [
-        "Language"
+        "Language",
+        "Multiplayer",
+        "Clientside"
     ],
     "publishedFileId": "3702027844"
 }
