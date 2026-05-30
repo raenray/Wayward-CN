@@ -48,24 +48,18 @@ Wayward-CN/
 │   └── oddmagicks/lang/
 │       └── english.json
 │
-├── translation/                 # 中文翻译（镜像 upstream 结构）
-│   ├── chinese-language/
-│   │   └── chinese.json
-│   ├── starterquest/lang/
-│   │   └── chinese.json
-│   ├── tars/lang/
-│   │   └── chinese.json
-│   ├── debugtools/lang/
-│   │   └── chinese.json
-│   ├── balancingtools/lang/
-│   │   └── chinese.json
-│   └── oddmagicks/lang/
-│       └── chinese.json
+├── translation/                 # 中文翻译（每个文件对应一个上游模块）
+│   ├── chinese.json             # 游戏本体
+│   ├── starterquest.json
+│   ├── tars.json
+│   ├── debugtools.json
+│   ├── balancingtools.json
+│   └── oddmagicks.json
 │
 └── glossary.md                  # 术语表（所有翻译的唯一参考标准）
 ```
 
-规则：**`upstream/` 禁止修改，翻译一律放入 `translation/`**，路径结构与 upstream 一一对应。
+规则：**`upstream/` 禁止修改，翻译一律放入 `translation/`**，每个模块一个独立的 JSON 文件。
 
 ---
 
