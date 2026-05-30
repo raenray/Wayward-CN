@@ -1,0 +1,18 @@
+[submodule "upstream/english-language"]
+	path = upstream/english-language
+	url = https://github.com/WaywardGame/english-language
+[submodule "upstream/starterquest"]
+	path = upstream/starterquest
+	url = https://github.com/WaywardGame/starterquest.git
+[submodule "upstream/debugtools"]
+	path = upstream/debugtools
+	url = https://github.com/WaywardGame/debugtools.git
+[submodule "upstream/balancingtools"]
+	path = upstream/balancingtools
+	url = https://github.com/WaywardGame/balancingtools.git
+[submodule "upstream/tars"]
+	path = upstream/tars
+	url = https://github.com/WaywardGame/tars.git
+[submodule "upstream/oddmagicks"]
+	path = upstream/oddmagicks
+	url = https://github.com/WaywardGame/oddmagicks.git
