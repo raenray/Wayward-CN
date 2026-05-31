@@ -6,7 +6,12 @@
     "github": "https://github.com/raenray/Wayward-CN.git",
     "waywardVersion": "2.15.4-beta",
     "languages": [
-        "lang/zh_cn"
+        "lang/zh_cn/chinese.json",
+        "lang/zh_cn/starterquest.json",
+        "lang/zh_cn/debugtools.json",
+        "lang/zh_cn/balancingtools.json", 
+        "lang/zh_cn/tars.json",
+        "lang/zh_cn/oddmagicks.json"
     ],
     "tags": [
         "Language",

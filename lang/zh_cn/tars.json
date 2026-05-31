@@ -1,5 +1,5 @@
 {
-	"extends": "English",
+	"extends": "简体中文",
 	"dictionaries": {
 		"bindable": {
 			"modTARSToggleDialog": "开关 TARS 配置页面",

@@ -1,5 +1,5 @@
 {
-	"extends": "English",
+	"extends": "简体中文",
 	"dictionaries": {
 		"questRequirement": {
 			"modStarterQuestActionSlots": "将 {0=1?使用物品:{0=0?进行行动:任意操作}} 分配于操作栏上",
