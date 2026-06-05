@@ -1,6 +1,6 @@
 {
     "name": "Wayward 中文补丁",
-    "description": "Wayward 全文本汉化",
+    "description": "Wayward 游戏简体中文汉化项目。基于官方英文原文重新译制，参考 PlotNarrater/wayward-chinese-language 项目的术语体系。\n目前支持游戏版本: 2.15.4-beta",
     "version": "2.15.4.1",
     "author": "raenray",
     "github": "https://github.com/raenray/Wayward-CN.git",
@@ -17,6 +17,6 @@
         "Language",
         "Multiplayer",
         "Clientside"
-    ],
-    "publishedFileId": "3702027844"
+	],
+	"publishedFileId": "3739020120"
 }

@@ -12897,7 +12897,7 @@
 			"steamworksURLOpenedInBrowser": "该链接已经通过你默认的 WEB 浏览器打开.",
 			"steamworksWorkshopOpenedInBrowser": [
 				"Steam 创意工坊已经在浏览器中打开.",
-				"结束浏览后按下 OK 返回."
+				"结束浏览后按下 确认 返回."
 			],
 			"steamworksModWithNameAlreadyExists": "已经存在同名模组. 请尝试重命名后发布.",
 			"steamworksModImportSaveGameFailure": "从模组 '{0}' 中导入游戏存档失败.",
