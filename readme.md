@@ -2,6 +2,8 @@
 
 Wayward 游戏简体中文汉化项目。基于官方英文原文重新译制，参考 PlotNarrater/wayward-chinese-language 项目的术语体系。
 
+参考项目：https://github.com/PlotNarrater/wayward-chinese-language.git
+
 目前支持游戏版本: 2.15.4-beta
 
 ---
