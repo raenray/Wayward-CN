@@ -518,7 +518,7 @@
 			"kneel": [
 				"跪拜{0?, 在{0}前}",
 				"跪拜了{TARGET?, 在{TARGET}前}",
-				"在祭坛前使用, 向岛上的奇异力量献上供品."
+				"在祭坛前准备, 向岛上的奇异力量献上供品."
 			],
 			"renameIsland": [
 				"重命名岛屿",
@@ -575,7 +575,8 @@
 			"consecrate": [
 				"祝圣",
 				"祝圣了{ TARGET??}{DEITY?, 献给{DEITY}}",
-				"向岛上的奇异力量献上符文, 期待它们变得更加充盈."
+				"用祭坛向岛上的奇异力量献上符文, 期望它们变得更加充盈.",
+				"增加获得神通技能的几率。"
 			],
 			"absorb": [
 				"汲取",
@@ -673,7 +674,8 @@
 			"invoke": [
 				"祈唤",
 				"{SILENCE?祈唤时未收到回应:祈唤了}{ DEITY??}",
-				"向天上或地下的不可知力量祈求怜悯."
+				"向天上或地下的不可知力量祈求怜悯.",
+				"根据符文的不同, 提高召唤的威力或改变其效果."
 			],
 			"swapWithArmorStand": [
 				"交换装备{0?, 与{0}}",
@@ -6744,7 +6746,7 @@
 			],
 			"bandage": [
 				"绷带",
-				"一些细碎的织物, 绑扎于伤口处以止血及预防感染."
+				"一块破旧的布料, 被裁剪成合适的形状, 用于包扎伤口并防止感染."
 			],
 			"wovenFabric": [
 				"纤维织物",
@@ -10513,7 +10515,7 @@
 			"fanaticismDeity": [
 				"{0?{.TEXT-NO-WRAP:{0}狂信}:神祇狂信}",
 				"{0?{.TEXT-NO-WRAP:{0}叛教}:神祇叛教}",
-				"触碰之下, 一股奇异的嗡鸣透过物品传入你体内."
+				"不知为何, 你感觉这似乎受到了岛上某种不可知力量的眷顾."
 			],
 			"terrorScareRadius": [
 				"恐怖",
@@ -14195,7 +14197,7 @@
 			"menuErrorReportingTitle": "自动向 Wayward 团队发送错误报告?",
 			"menuErrorReportingDescription": "错误报告仅针对我们专门设置的特定错误或警告发送, 并非所有错误都会发送.",
 			"menuErrorReportingContentsTitle": "会发送什么?",
-			"menuErrorReportingContentsDescription": "所有发送的错误报告都会 {/完全/} 剥离 {/所有/} 上下文信息. 它们不包含任何与你本人, 你的电脑或你的存档相关的信息. 从你的游戏, 你的电脑上发送的错误报告, 与其他人从他们的电脑上发送的相同错误报告完全一致.\n\n举个例子, 我们可能会收到一条报告说 {.CODE:Error: Cannot read property 'x' of undefined}. 除此之外我们只能看到该错误来自代码的哪个部分.",
+			"menuErrorReportingContentsDescription": "发送的任何错误报告都会{/彻底/}移除{/所有/}上下文信息. 它们不包含任何能够关联到你本人, 你的计算机或你的存档的信息. 你的游戏在你的设备上发送的错误报告, 与其他人在他们的设备上发送的相同错误报告完全没有区别. \n\n举个例子, 我们可能会收到一条报告：{.CODE:Error: Cannot read property 'x' of undefined}. 除此之外, 我们唯一能够看到的, 就是该错误来自代码中的哪个位置. \n\n多人游戏不同步(Desync)报告确实会包含用于诊断同步问题的附加信息, 例如数据包名称, 游戏对象 ID, 位置坐标, 模组列表以及其他游戏运行统计数据. 除此之外, 这些报告不会包含任何其他信息, 我们无法将其与你本人, 你的计算机, 你的存档, 甚至与你所在的多人服务器或玩家身份关联起来.",
 			"menuErrorReportingButtonNo": "算了吧",
 			"menuErrorReportingButtonYes": "好的, 发送报告",
 			"menuMultiplayerDescription": "加入你伙伴的冒险.",
@@ -14645,6 +14647,7 @@
 			"menuMultiplayerOptionsConnectedPlayersHeading": "在线玩家",
 			"menuMultiplayerOptionsAbsentPlayersHeading": "离线玩家",
 			"menuMultiplayerOptionsDeletePlayerTooltip": "删除",
+			"menuMultiplayerOptionsCopyPlayerInfoTooltip": "复制玩家名 & 标识符",
 			"menuJoinServerTitle": "加入服务器",
 			"menuJoinServerDescription": "加入一个多人游玩的服务器.",
 			"menuJoinServerInputPlaceholder": "Game Code, IP 地址, 或 Hostname",
